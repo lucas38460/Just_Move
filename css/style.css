@@ -1,0 +1,56 @@
+/* base */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+/* base */
+
+
+/* global Div */
+#globalDiv {
+    width:  100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(139, 139, 168);
+}
+/* global Div */
+
+
+/* div Parent */
+.leftDiv {
+    background-color: rebeccapurple;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rightDiv {
+    height: 500px;
+    width: 500px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* div Parent */
+
+
+/* div qui bouge */
+div {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(119, 119, 119);
+}
+/* div qui bouge */

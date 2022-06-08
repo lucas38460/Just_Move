@@ -27,7 +27,7 @@ body {
 
 
 /* div Parent */
-.leftDiv {
+#leftDiv, #rightDiv {
     background-color: rebeccapurple;
     height: 500px;
     width: 500px;
@@ -36,21 +36,16 @@ body {
     align-items: center;
 }
 
-.rightDiv {
-    height: 500px;
-    width: 500px;
+#rightDiv {
     background-color: blue;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 /* div Parent */
 
 
 /* div qui bouge */
 div {
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
     background-color: rgb(119, 119, 119);
 }
 /* div qui bouge */
